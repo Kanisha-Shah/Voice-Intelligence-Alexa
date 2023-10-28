@@ -1,0 +1,121 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "question master",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SkillIntent",
+                    "slots": [
+                        {
+                            "name": "Skill",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "lets work on {Skill}",
+                        "lets choose the {Skill}",
+                        "i will choose {Skill} skill type",
+                        "i will choose {Skill} skill"
+                    ]
+                },
+                {
+                    "name": "QuestionTypeIntent",
+                    "slots": [
+                        {
+                            "name": "QuestionType",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "{QuestionType} question type",
+                        "i will choose {QuestionType} type ",
+                        "i will choose {QuestionType} type of question"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "answer for the question is {Answer} ",
+                        "option {Answer} is answer",
+                        "answer is option {Answer}",
+                        "answer is {Answer}",
+                        "{Answer} is the answer",
+                        "the answer is {Answer}",
+                        "the answer for the question is {Answer}"
+                    ]
+                },
+                {
+                    "name": "AnswerDescriptionIntent",
+                    "slots": [],
+                    "samples": [
+                        "please let me know the reason behind the answer",
+                        "can you explain the methodology behind this answer",
+                        "i dont uderstand this answer",
+                        "what is the reason for such answer",
+                        "can you give me the reason for the asnwer"
+                    ]
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "lwts proceed to next question",
+                        "ok what is the next question ",
+                        "next question",
+                        "wht is the next question",
+                        "ok give me the next question"
+                    ]
+                },
+                {
+                    "name": "StopIntent",
+                    "slots": [],
+                    "samples": [
+                        "Stop asking questions",
+                        "stop",
+                        "okay Stop"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
